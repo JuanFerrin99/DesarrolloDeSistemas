@@ -2,7 +2,7 @@ const prompt = require('prompt-sync')();
 
 function comprobarNumeros(nums){
     for(num of nums){
-        if (num % 2 !== 0){
+        if (num % 1 === 0){
             return "10"
         }
         else if (typeof num == "string"){

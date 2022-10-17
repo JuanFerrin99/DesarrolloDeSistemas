@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(244, 244, 235);
+    margin: 0;
+}
+input {
+    width: 100%;
+    padding: 0.5% 0.75%;
+    margin: 0.25% 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: rgb(163, 206, 87);
+    color: rgb(27, 27, 27);
+    font-weight: bold;
+    font-size: 14px;
+    padding: 0.5% 0.75%;
+    margin: 1% 0;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.container {
+    padding: 2%;
+}

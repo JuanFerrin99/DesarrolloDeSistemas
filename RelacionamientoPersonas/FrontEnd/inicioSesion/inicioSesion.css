@@ -1,0 +1,34 @@
+body{
+    background-color: rgb(244, 244, 235);
+    margin: 0;
+
+}
+.i{
+    width: 30%;
+    padding: 0.5% 0.75%;
+    margin: 0.25% 0;
+    border: 1px solid #ccc;
+}
+.p {
+    background-color: rgb(163, 206, 87);
+    color: rgb(27, 27, 27);
+    font-weight: bold;
+    font-size: 14px;
+    padding: 0.5% 0.75%;
+    margin: 1% 0;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+}
+
+.p:hover {
+    opacity: 0.8;
+}
+
+.inpts{
+    width: 100%;
+}
+.container {
+    height: 100vh;
+    padding: 2%;
+}
